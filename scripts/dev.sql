@@ -1,2 +1,2 @@
-selects *
+selectss *
 from table
