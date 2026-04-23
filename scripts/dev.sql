@@ -1,2 +1,1 @@
-selectss *
-from table
+INSERT INTO table_dev (name) VALUES ('Jules');
