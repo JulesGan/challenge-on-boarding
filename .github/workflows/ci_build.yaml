@@ -17,7 +17,7 @@ jobs:
 
       - name: 'Build Application'
         id: build_step
-        run: 
+        run: |
           VERSION=$(cat version.txt)
           ARTIFACT_NAME="artifact_${VERSION}"
           zip -r "scripts/${ARTIFACT_NAME}.zip" scripts/
