@@ -1,0 +1,13 @@
+name: 'Demo GHA'
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  Yo:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 'Yo bro'
+        run: echo 'Yo bro'
