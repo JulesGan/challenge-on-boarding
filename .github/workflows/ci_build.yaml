@@ -26,6 +26,6 @@ jobs:
       - name: 'Upload Artifact'
         uses: actions/upload-artifact@v4
         with:
-          name: ${{ steps.build_step.output.artifact_name }}
+          name: ${{ steps.build_step.outputs.artifact_name }}
           path: scripts/*.zip
     
