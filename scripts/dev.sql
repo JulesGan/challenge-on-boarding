@@ -1,1 +1,2 @@
-
+selects *
+from table
